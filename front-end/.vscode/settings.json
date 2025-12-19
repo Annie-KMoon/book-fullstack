@@ -1,0 +1,9 @@
+{
+  "editor.fontSize": 15,
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "scm.compactFolders": false,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt"
+  // "python-envs.defaultEnvManager": "ms-python.python:system",
+  // "python-envs.pythonProjects": []
+}
