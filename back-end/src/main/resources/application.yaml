@@ -1,5 +1,29 @@
 server:
   port: 8000
 spring:
+  datasource:
+    hikari:
+      jdbc-url: jdbc:oracle:thin:@127.0.0.1:1521/orcl11
+      username: scott
+      password: tiger
+      driver-class-name: oracle.jdbc.OracleDriver
+      connection-timeout: 20000
+      validation-timeout: 3000
+      minimum-idle: 5
+      maximum-pool-size: 12
+      idle-timeout: 300000
+      max-lifetime: 1200000
+      auto-commit: true
+      pool-name: oraPool
   application:
     name: back-end
+springdoc:
+  swagger-ui:
+    path: /docs # Swagger UI 접속 경로 변경 (예: /docs)
+    operationsSorter: method
+    tagsSorter: alpha
+  # api-docs.path는 기본값 /v3/api-docs를 사용
+  # http://localhost:8000/swagger-ui/index.html
+  # http://localhost:8080/v3/api-docs
+  api-docs:
+    path: /v3/api-docs

@@ -3,7 +3,9 @@
   "files.autoSave": "afterDelay",
   "editor.tabSize": 2,
   "scm.compactFolders": false,
-  "terminal.integrated.defaultProfile.windows": "Command Prompt"
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "java.compile.nullAnalysis.mode": "automatic"
   // "python-envs.defaultEnvManager": "ms-python.python:system",
   // "python-envs.pythonProjects": []
 }

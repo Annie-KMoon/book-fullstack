@@ -1,0 +1,13 @@
+.page-header {
+  padding: 20px 0px;
+}
+
+.deptlist {
+  margin: 20px 0px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 30px;
+}
